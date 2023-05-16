@@ -11,6 +11,7 @@ class Settings():
 		
 		# Rocket settings
 		self.rocket_speed_factor = 2
+		self.rocket_health = 10
 		
 		# Bullet settings
 		self.bullet_speed_factor = 1
@@ -24,3 +25,9 @@ class Settings():
 		
 		# UFO settings
 		self.ufo_speed_factor = 0.2
+		
+		# Scoring
+		self.ufo_points = 10
+		
+		# Asteroid settings
+		self.asteroid_speed_factor = 0.5
