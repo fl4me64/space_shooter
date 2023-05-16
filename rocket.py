@@ -43,3 +43,7 @@ class Rocket():
 	def blitme(self):
 		# Draw the rocket at its current location.
 		self.screen.blit(self.image, self.rect)
+	
+	def center_rocket(self):
+		self.centery = self.screen_rect.centery
+		self.centerx = self.screen_rect.left + 85
